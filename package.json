@@ -5,8 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "express": "~4.7.1",
-    "ejs": "~1.0.0",
-    "express-cdn": "~0.2.2"
+    "ejs": "~1.0.0"
   },
   "devDependencies": {
     "gulp": "~3.6.2",

@@ -8,7 +8,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 app.enable('view cache');
 app.use(express.static(path.join(__dirname, 'public')));
-//require('./config/cdn.js')(app);
+
 
 
 app.get('/', function(req, res, next){

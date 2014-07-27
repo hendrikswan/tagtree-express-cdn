@@ -1,0 +1,23 @@
+{
+  "name": "express-cdn-cast",
+  "version": "0.0.0",
+  "description": "a simple node express app used for tagtree screencast",
+  "main": "index.js",
+  "dependencies": {
+    "express": "~4.7.1",
+    "ejs": "~1.0.0",
+    "express-cdn": "~0.2.2"
+  },
+  "devDependencies": {
+    "gulp": "~3.6.2",
+    "connect": "~3.0.1",
+    "gulp-connect": "~2.0.5",
+    "gulp-ruby-sass": "~0.6.0",
+    "gulp-nodemon": "~1.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tagtree",
+  "license": "ISC"
+}

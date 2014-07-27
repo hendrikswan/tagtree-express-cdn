@@ -1,0 +1,135 @@
+$sans_font: 'helvetica';
+$serif_font: 'georgia';
+$nav-bg-color: #2b2b2b;
+$green-color: #39b54a;
+$pink-color : #f92772;
+
+body {
+    background-color: #fff;
+    font-family: $sans_font;
+}
+
+#library {
+    display: none;
+}
+
+
+#mast-head {
+    margin-top: 0px;
+    max-width:100%;
+    background-color: $nav-bg-color;
+    padding:20px 70px;
+}
+
+
+
+#logo-link {
+    width: 130px;
+    height: 32px;
+    display: inline-block;
+    background-image: url('/images/logo.png');
+    margin-top:5px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2) {
+
+    #logo-link{
+        background:url('/images/logo@2x.png') no-repeat top left;
+        background-size: 123px 31px;
+    }
+}
+
+
+
+#navigation {
+    margin-top: -5px;
+    margin-right: 0px;
+    //width: 600px;
+    float: right;
+    text-align: right;
+    width:400px;
+
+
+    ul {
+        list-style-type: none;
+        margin-right: 0px;
+        li {
+            display:inline;
+            padding: 10px;
+            a {
+                font-family: $sans_font, Helvetica, Arial;;
+                color: #fff;
+                text-decoration: none;
+                text-transform: lowercase;
+                font-size: 20px;
+            }
+
+            a:hover{
+                color: #6DC954;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+#features {
+    padding-top: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.feature-icon {
+    background-color: $green-color;
+    border-radius: 50px;
+    height: 75px;
+    width: 75px;
+    font-size: 29px;
+    display: block;
+    margin: 0 auto;
+    -webkit-transition: all .3s ease-in-out;
+}
+
+
+.feature-icon:hover {
+    background-color: $pink-color;
+    //font-size: 40px;
+    display: block;
+    margin: 0 auto;
+
+    -webkit-transform: scale(1.2);
+}
+
+.nested-icon {
+    position: relative;
+    display: inline-block;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.feature {
+    height: 320px;
+    color: #505050;
+    font-weight: 300;
+    text-align: center;
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.feature-heading {
+    font-size: 20px;
+    padding-top: 30px;
+    vertical-align: middle;
+    color: #414141;
+    font-weight: 500;
+
+}
+
+.feature-copy {
+    font-size: 16px;
+    padding-top: 30px;
+}
